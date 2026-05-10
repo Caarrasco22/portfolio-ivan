@@ -1,0 +1,22 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header';
+import Hero from '../components/Hero';
+import About from '../components/About';
+import Experience from '../components/Experience';
+import Skills from '../components/Skills';
+import Services from '../components/Services';
+import Contact from '../components/Contact.astro';
+import Footer from '../components/Footer';
+---
+
+<Layout title="Iván Cañas Jiménez - Ingeniero Ferroviario">
+  <Header client:load />
+  <Hero />
+  <About />
+  <Experience />
+  <Skills client:load />
+  <Services client:load />
+  <Contact />
+  <Footer />
+</Layout>
